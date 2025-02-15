@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin: auto;
+  font-size: 20px;
+  width: 79%;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tab {
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.tab.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+.chat-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff6600;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.chat-image img {
+  width: 287px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.chat-content {
+  text-align: left;
+  margin-left: 42px;
+}
+
+.chat-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.chat-content ul {
+  list-style: square;
+  padding: 4px;
+  font-size: 19px;
+}
+.p-two {
+  color: #fff;
+  font-size: 20px;
+  width: 59%;
+  margin-left: 5px;
+}
+
+.chat-content ul li {
+  margin: 10px 0;
+}
+
+.learn-btn {
+  background-color: white;
+  color: black;
+  padding: 13px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Page no 2 */
